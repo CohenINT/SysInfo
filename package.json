@@ -1,0 +1,16 @@
+{
+  "name": "diskinfo",
+  "version": "1.0.0",
+  "description": "get drives data for TA launcher",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    
+    "build":"pkg --target node14-macos-x64 main.js --build --out-path ./dist"
+  },
+  "dependencies": {
+    "edge": "^7.10.1",
+    "pkg": "^5.8.1",
+    "systeminformation": "^5.18.6"
+  }
+}
